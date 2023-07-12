@@ -8,10 +8,6 @@ USER_INFO = './user_info.json'
 WINDOW_SEAT = True
 
 
-def search_trains(srt: SRT, params: dict) -> list['SRTTrain']:
-    return srt.search_train(params['dep'], params['arr'], params['date'], params['time'], params['time_limit'], params['available_only'])
-
-
 def notification():
     wintoaster = WindowsToaster('SRT Sniper')
     newToast = ToastText1()
