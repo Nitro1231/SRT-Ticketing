@@ -1,0 +1,16 @@
+{
+    "login_info": {
+        "username": "id",
+        "password": "pw"
+    },
+    "search_params": [
+        {
+            "dep": "수서",
+            "arr": "동대구",
+            "date": "20230713",
+            "time": "090000",
+            "time_limit": "091000",
+            "available_only": true
+        }
+    ]
+}
