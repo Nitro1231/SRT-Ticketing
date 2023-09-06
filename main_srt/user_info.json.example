@@ -3,14 +3,27 @@
         "username": "id",
         "password": "pw"
     },
+    "notification": {
+        "email": {
+            "sender_email": "email",
+            "sender_password": "pasword",
+            "receiver_email": "email"
+        }
+    },
     "search_params": [
         {
             "dep": "수서",
-            "arr": "동대구",
-            "date": "20230713",
+            "arr": "서대구",
+            "date": "20230805",
             "time": "090000",
-            "time_limit": "091000",
-            "available_only": true
+            "time_limit": "091000"
+        },
+        {
+            "dep": "수서",
+            "arr": "서대구",
+            "date": "20230804",
+            "time": "120000",
+            "time_limit": "130000"
         }
     ]
 }
